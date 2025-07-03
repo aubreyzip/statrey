@@ -22,7 +22,7 @@ export const itemizationSchema = z.record(z.string(), z.array(z.string()));
 export const championSchema = z.object({
   name: z.string(),
   stats: championStatsSchema,
-  itemization: itemizationSchema.optional(),
+  itemizationId: z.string().optional(),
   ability: abilitySchema,
   tags: z.array(z.string()),
 });
