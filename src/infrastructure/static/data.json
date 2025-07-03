@@ -1,0 +1,2596 @@
+{
+ "units": {
+  "TFT14_Varus": {
+   "name": "Varus",
+   "stats": {
+    "hp": 700,
+    "mana": 70,
+    "initialMana": 20,
+    "damage": 35,
+    "armor": 25,
+    "magicResist": 25,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.75,
+    "range": 4
+   },
+   "itemization": "{8377a680}",
+   "ability": {
+    "details": [
+     [
+      "200",
+      "300",
+      "480"
+     ],
+     [
+      "100",
+      "150",
+      "240"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Jarvan": {
+   "name": "Jarvan IV",
+   "stats": {
+    "hp": 850,
+    "mana": 75,
+    "initialMana": 25,
+    "damage": 60,
+    "armor": 50,
+    "magicResist": 50,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.65,
+    "range": 1
+   },
+   "itemization": "{d5823aeb}",
+   "ability": {
+    "details": [
+     [
+      "300",
+      "350",
+      "400"
+     ],
+     [
+      "30",
+      "50",
+      "80"
+     ],
+     [
+      "280",
+      "280",
+      "280"
+     ],
+     [
+      "15",
+      "18",
+      "20"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_DrMundo": {
+   "name": "Dr. Mundo",
+   "stats": {
+    "hp": 650,
+    "mana": 75,
+    "initialMana": 25,
+    "damage": 50,
+    "armor": 35,
+    "magicResist": 35,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.6,
+    "range": 1
+   },
+   "itemization": "{d5823aeb}",
+   "ability": {
+    "details": [
+     [
+      "75",
+      "115",
+      "175"
+     ],
+     null,
+     null
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Mordekaiser": {
+   "name": "Mordekaiser",
+   "stats": {
+    "hp": 850,
+    "mana": 80,
+    "initialMana": 30,
+    "damage": 50,
+    "armor": 50,
+    "magicResist": 50,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.6,
+    "range": 1
+   },
+   "itemization": "{2ccf900f}",
+   "ability": {
+    "details": [
+     [
+      "475",
+      "525",
+      "700"
+     ],
+     [
+      "200",
+      "300",
+      "500"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Kobuko": {
+   "name": "Kobuko",
+   "stats": {
+    "hp": 900,
+    "mana": 0,
+    "initialMana": 120,
+    "damage": 20,
+    "armor": 50,
+    "magicResist": 50,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 1,
+    "range": 1
+   },
+   "itemization": "{44de5928}",
+   "ability": {
+    "details": [
+     [
+      "100",
+      "150",
+      "999"
+     ],
+     [
+      "100",
+      "100",
+      "400"
+     ],
+     [
+      "300",
+      "450",
+      "13370"
+     ],
+     [
+      "150",
+      "225",
+      "1337"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Shyvana": {
+   "name": "Shyvana",
+   "stats": {
+    "hp": 700,
+    "mana": 100,
+    "initialMana": 50,
+    "damage": 45,
+    "armor": 45,
+    "magicResist": 45,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.6,
+    "range": 1
+   },
+   "itemization": "{2ccf900f}",
+   "ability": {
+    "details": [
+     [
+      "6",
+      "8",
+      "10"
+     ],
+     [
+      "18",
+      "27",
+      "40"
+     ],
+     [
+      "210",
+      "285",
+      "360"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Elise": {
+   "name": "Elise",
+   "stats": {
+    "hp": 700,
+    "mana": 50,
+    "initialMana": 0,
+    "damage": 40,
+    "armor": 25,
+    "magicResist": 25,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.75,
+    "range": 4
+   },
+   "itemization": "{8377a680}",
+   "ability": {
+    "details": [
+     [
+      "54",
+      "81",
+      "125"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Illaoi": {
+   "name": "Illaoi",
+   "stats": {
+    "hp": 800,
+    "mana": 60,
+    "initialMana": 0,
+    "damage": 60,
+    "armor": 50,
+    "magicResist": 50,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.6,
+    "range": 1
+   },
+   "itemization": "{2ccf900f}",
+   "ability": {
+    "details": [
+     [
+      "350",
+      "400",
+      "600"
+     ],
+     [
+      "150",
+      "225",
+      "350"
+     ],
+     [
+      "60",
+      "90",
+      "140"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Fiddlesticks": {
+   "name": "Fiddlesticks",
+   "stats": {
+    "hp": 800,
+    "mana": 45,
+    "initialMana": 0,
+    "damage": 40,
+    "armor": 50,
+    "magicResist": 50,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.75,
+    "range": 2
+   },
+   "itemization": "{44de5928}",
+   "ability": {
+    "details": [
+     [
+      "190",
+      "285",
+      "445"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Naafiri": {
+   "name": "Naafiri",
+   "stats": {
+    "hp": 700,
+    "mana": 50,
+    "initialMana": 0,
+    "damage": 52,
+    "armor": 50,
+    "magicResist": 50,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.85,
+    "range": 1
+   },
+   "itemization": "{53d104ac}",
+   "ability": {
+    "details": [
+     [
+      "275",
+      "275",
+      "275"
+     ],
+     [
+      "75",
+      "75",
+      "75"
+     ],
+     [
+      "165",
+      "165",
+      "165"
+     ],
+     null
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_AnnieTibbers": {
+   "name": "Tibbers",
+   "stats": {
+    "hp": 1200,
+    "mana": 80,
+    "initialMana": 0,
+    "damage": 120,
+    "armor": 60,
+    "magicResist": 60,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.7,
+    "range": 1
+   },
+   "ability": {
+    "details": [
+     null,
+     [
+      "10",
+      "100",
+      "4000"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Shaco": {
+   "name": "Shaco",
+   "stats": {
+    "hp": 600,
+    "mana": 50,
+    "initialMana": 0,
+    "damage": 55,
+    "armor": 40,
+    "magicResist": 40,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.8,
+    "range": 1
+   },
+   "itemization": "{14a36a9c}",
+   "ability": {
+    "details": [
+     [
+      "40",
+      "60",
+      "90"
+     ],
+     null,
+     null
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Sejuani": {
+   "name": "Sejuani",
+   "stats": {
+    "hp": 1000,
+    "mana": 140,
+    "initialMana": 50,
+    "damage": 60,
+    "armor": 60,
+    "magicResist": 60,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.6,
+    "range": 1
+   },
+   "itemization": "{2ccf900f}",
+   "ability": {
+    "details": [
+     [
+      "120",
+      "180",
+      "1800"
+     ],
+     [
+      "1.75",
+      "2",
+      "8"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_SummonLevel4": {
+   "name": "T-43X",
+   "stats": {
+    "hp": 800,
+    "mana": 120,
+    "initialMana": 50,
+    "damage": 80,
+    "armor": 50,
+    "magicResist": 50,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.75,
+    "range": 1
+   },
+   "ability": {
+    "details": [
+     null,
+     [
+      "100",
+      "120",
+      "140"
+     ],
+     [
+      "460",
+      "490",
+      "520"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_TwistedFate": {
+   "name": "Twisted Fate",
+   "stats": {
+    "hp": 600,
+    "mana": 70,
+    "initialMana": 10,
+    "damage": 35,
+    "armor": 20,
+    "magicResist": 20,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.75,
+    "range": 4
+   },
+   "itemization": "{9eb7b8a6}",
+   "ability": {
+    "details": [
+     [
+      "220",
+      "330",
+      "500"
+     ],
+     [
+      "245",
+      "365",
+      "550"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_SummonLevel2": {
+   "name": "R-080T",
+   "stats": {
+    "hp": 500,
+    "mana": 100,
+    "initialMana": 50,
+    "damage": 45,
+    "armor": 40,
+    "magicResist": 40,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.7,
+    "range": 1
+   },
+   "ability": {
+    "details": [
+     null,
+     [
+      "100",
+      "120",
+      "140"
+     ],
+     [
+      "460",
+      "490",
+      "520"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Zeri": {
+   "name": "Zeri",
+   "stats": {
+    "hp": 800,
+    "mana": 40,
+    "initialMana": 0,
+    "damage": 65,
+    "armor": 30,
+    "magicResist": 30,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.8,
+    "range": 4
+   },
+   "itemization": "{34ed6daa}",
+   "ability": {
+    "details": [
+     [
+      "40",
+      "40",
+      "200"
+     ],
+     [
+      "2",
+      "2",
+      "5"
+     ],
+     [
+      "3",
+      "3",
+      "5"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Skarner": {
+   "name": "Skarner",
+   "stats": {
+    "hp": 800,
+    "mana": 70,
+    "initialMana": 25,
+    "damage": 50,
+    "armor": 50,
+    "magicResist": 50,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.6,
+    "range": 1
+   },
+   "itemization": "{2ccf900f}",
+   "ability": {
+    "details": [
+     [
+      "325",
+      "375",
+      "450"
+     ],
+     [
+      "40",
+      "60",
+      "90"
+     ],
+     [
+      "170",
+      "255",
+      "425"
+     ],
+     null
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Vex": {
+   "name": "Vex",
+   "stats": {
+    "hp": 800,
+    "mana": 30,
+    "initialMana": 0,
+    "damage": 30,
+    "armor": 30,
+    "magicResist": 30,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.8,
+    "range": 4
+   },
+   "itemization": "{32cdc033}",
+   "ability": {
+    "details": [
+     [
+      "100",
+      "150",
+      "600"
+     ],
+     [
+      "190",
+      "285",
+      "1150"
+     ],
+     [
+      "100",
+      "150",
+      "600"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Neeko": {
+   "name": "Neeko",
+   "stats": {
+    "hp": 1000,
+    "mana": 90,
+    "initialMana": 30,
+    "damage": 60,
+    "armor": 60,
+    "magicResist": 60,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.65,
+    "range": 1
+   },
+   "itemization": "{2ccf900f}",
+   "ability": {
+    "details": [
+     [
+      "295",
+      "315",
+      "1500"
+     ],
+     [
+      "80",
+      "120",
+      "1800"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Zac": {
+   "name": "Zac",
+   "stats": {
+    "hp": 900,
+    "mana": 100,
+    "initialMana": 30,
+    "damage": 60,
+    "armor": 40,
+    "magicResist": 40,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.75,
+    "range": 1
+   },
+   "itemization": "{2ccf900f}",
+   "ability": {
+    "details": [
+     [
+      "140",
+      "210",
+      "1000"
+     ],
+     [
+      "8",
+      "8",
+      "50"
+     ],
+     null,
+     [
+      "80",
+      "100",
+      "2000"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Brand": {
+   "name": "Brand",
+   "stats": {
+    "hp": 800,
+    "mana": 70,
+    "initialMana": 10,
+    "damage": 35,
+    "armor": 30,
+    "magicResist": 30,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.75,
+    "range": 4
+   },
+   "itemization": "{8377a680}",
+   "ability": {
+    "details": [
+     [
+      "260",
+      "390",
+      "1500"
+     ],
+     [
+      "100",
+      "150",
+      "600"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Vayne": {
+   "name": "Vayne",
+   "stats": {
+    "hp": 550,
+    "mana": 75,
+    "initialMana": 25,
+    "damage": 53,
+    "armor": 20,
+    "magicResist": 20,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.75,
+    "range": 4
+   },
+   "itemization": "{34ed6daa}",
+   "ability": {
+    "details": [
+     null,
+     [
+      "10",
+      "15",
+      "25"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Senna": {
+   "name": "Senna",
+   "stats": {
+    "hp": 700,
+    "mana": 100,
+    "initialMana": 0,
+    "damage": 85,
+    "armor": 25,
+    "magicResist": 25,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.6,
+    "range": 4
+   },
+   "itemization": "{2ae695df}",
+   "ability": {
+    "details": [
+     [
+      "20",
+      "30",
+      "45"
+     ],
+     null,
+     null
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Galio": {
+   "name": "Galio",
+   "stats": {
+    "hp": 900,
+    "mana": 80,
+    "initialMana": 20,
+    "damage": 60,
+    "armor": 50,
+    "magicResist": 50,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.6,
+    "range": 1
+   },
+   "itemization": "{2ccf900f}",
+   "ability": {
+    "details": [
+     [
+      "55",
+      "55",
+      "60"
+     ],
+     [
+      "425",
+      "500",
+      "600"
+     ],
+     [
+      "150",
+      "225",
+      "335"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Summon_Turret": {
+   "name": "T-URR37",
+   "stats": {
+    "hp": 375,
+    "mana": 60,
+    "initialMana": 0,
+    "damage": 30,
+    "armor": 20,
+    "magicResist": 20,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.7,
+    "range": 4
+   },
+   "ability": {
+    "details": []
+   },
+   "tags": []
+  },
+  "TFT14_Samira": {
+   "name": "Samira",
+   "stats": {
+    "hp": 900,
+    "mana": 100,
+    "initialMana": 20,
+    "damage": 70,
+    "armor": 40,
+    "magicResist": 40,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.8,
+    "range": 4
+   },
+   "itemization": "{2ae695df}",
+   "ability": {
+    "details": [
+     null,
+     [
+      "90",
+      "90",
+      "1500"
+     ],
+     [
+      "500",
+      "500",
+      "5000"
+     ],
+     [
+      "12",
+      "12",
+      "100"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Xayah": {
+   "name": "Xayah",
+   "stats": {
+    "hp": 800,
+    "mana": 75,
+    "initialMana": 25,
+    "damage": 65,
+    "armor": 30,
+    "magicResist": 30,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.8,
+    "range": 4
+   },
+   "itemization": "{2ae695df}",
+   "ability": {
+    "details": [
+     [
+      "150",
+      "150",
+      "400"
+     ],
+     [
+      "20",
+      "30",
+      "200"
+     ],
+     null,
+     [
+      "35",
+      "35",
+      "100"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Ziggs": {
+   "name": "Ziggs",
+   "stats": {
+    "hp": 850,
+    "mana": 70,
+    "initialMana": 20,
+    "damage": 40,
+    "armor": 30,
+    "magicResist": 30,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.75,
+    "range": 4
+   },
+   "itemization": "{8377a680}",
+   "ability": {
+    "details": [
+     [
+      "265",
+      "400",
+      "1500"
+     ],
+     [
+      "130",
+      "200",
+      "900"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Zed": {
+   "name": "Zed",
+   "stats": {
+    "hp": 1050,
+    "mana": 50,
+    "initialMana": 0,
+    "damage": 50,
+    "armor": 65,
+    "magicResist": 65,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.95,
+    "range": 1
+   },
+   "itemization": "{14a36a9c}",
+   "ability": {
+    "details": [
+     [
+      "40",
+      "60",
+      "800"
+     ],
+     [
+      "270",
+      "270",
+      "700"
+     ],
+     [
+      "270",
+      "270",
+      "700"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Annie": {
+   "name": "Annie",
+   "stats": {
+    "hp": 850,
+    "mana": 40,
+    "initialMana": 0,
+    "damage": 30,
+    "armor": 30,
+    "magicResist": 30,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.75,
+    "range": 4
+   },
+   "itemization": "{8377a680}",
+   "ability": {
+    "details": [
+     [
+      "230",
+      "345",
+      "1200"
+     ],
+     null,
+     [
+      "42",
+      "63",
+      "300"
+     ],
+     [
+      "270",
+      "405",
+      "1215"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Zyra": {
+   "name": "Zyra",
+   "stats": {
+    "hp": 500,
+    "mana": 60,
+    "initialMana": 0,
+    "damage": 30,
+    "armor": 15,
+    "magicResist": 15,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.7,
+    "range": 4
+   },
+   "itemization": "{8377a680}",
+   "ability": {
+    "details": [
+     [
+      "305",
+      "460",
+      "685"
+     ],
+     [
+      "150",
+      "225",
+      "340"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Yuumi": {
+   "name": "Yuumi",
+   "stats": {
+    "hp": 650,
+    "mana": 30,
+    "initialMana": 0,
+    "damage": 35,
+    "armor": 25,
+    "magicResist": 25,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.75,
+    "range": 4
+   },
+   "itemization": "{32cdc033}",
+   "ability": {
+    "details": [
+     null,
+     [
+      "100",
+      "150",
+      "235"
+     ],
+     [
+      "60",
+      "90",
+      "140"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Jhin": {
+   "name": "Jhin",
+   "stats": {
+    "hp": 550,
+    "mana": 64,
+    "initialMana": 14,
+    "damage": 44,
+    "armor": 20,
+    "magicResist": 20,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.74,
+    "range": 4
+   },
+   "itemization": "{2ae695df}",
+   "ability": {
+    "details": [
+     null,
+     null,
+     null
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Graves": {
+   "name": "Graves",
+   "stats": {
+    "hp": 800,
+    "mana": 2,
+    "initialMana": 0,
+    "damage": 55,
+    "armor": 55,
+    "magicResist": 55,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.6,
+    "range": 2
+   },
+   "itemization": "{14a36a9c}",
+   "ability": {
+    "details": [
+     null,
+     [
+      "6",
+      "9",
+      "16"
+     ],
+     [
+      "40",
+      "40",
+      "48"
+     ],
+     null
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Viego": {
+   "name": "Viego",
+   "stats": {
+    "hp": 1100,
+    "mana": 65,
+    "initialMana": 25,
+    "damage": 60,
+    "armor": 60,
+    "magicResist": 60,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.9,
+    "range": 1
+   },
+   "itemization": "{402a9680}",
+   "ability": {
+    "details": [
+     null,
+     [
+      "200",
+      "300",
+      "10000"
+     ],
+     [
+      "90",
+      "135",
+      "10000"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Braum": {
+   "name": "Braum",
+   "stats": {
+    "hp": 850,
+    "mana": 90,
+    "initialMana": 30,
+    "damage": 60,
+    "armor": 50,
+    "magicResist": 50,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.6,
+    "range": 1
+   },
+   "itemization": "{2ccf900f}",
+   "ability": {
+    "details": [
+     [
+      "375",
+      "400",
+      "450"
+     ],
+     [
+      "100",
+      "150",
+      "240"
+     ],
+     null
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Leona": {
+   "name": "Leona",
+   "stats": {
+    "hp": 1100,
+    "mana": 120,
+    "initialMana": 60,
+    "damage": 60,
+    "armor": 60,
+    "magicResist": 60,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.6,
+    "range": 1
+   },
+   "itemization": "{2ccf900f}",
+   "ability": {
+    "details": [
+     [
+      "55",
+      "60",
+      "90"
+     ],
+     [
+      "100",
+      "150",
+      "2000"
+     ],
+     [
+      "14",
+      "21",
+      "150"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Chogath": {
+   "name": "Cho'Gath",
+   "stats": {
+    "hp": 1100,
+    "mana": 100,
+    "initialMana": 60,
+    "damage": 65,
+    "armor": 50,
+    "magicResist": 50,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.6,
+    "range": 1
+   },
+   "itemization": "{2ccf900f}",
+   "ability": {
+    "details": [
+     [
+      "100",
+      "150",
+      "1500"
+     ],
+     [
+      "70",
+      "100",
+      "500"
+     ],
+     [
+      "25",
+      "25",
+      "55"
+     ],
+     null
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Ekko": {
+   "name": "Ekko",
+   "stats": {
+    "hp": 800,
+    "mana": 70,
+    "initialMana": 30,
+    "damage": 45,
+    "armor": 45,
+    "magicResist": 45,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.7,
+    "range": 1
+   },
+   "itemization": "{2ccf900f}",
+   "ability": {
+    "details": [
+     [
+      "300",
+      "375",
+      "475"
+     ],
+     [
+      "180",
+      "270",
+      "410"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Sylas": {
+   "name": "Sylas",
+   "stats": {
+    "hp": 650,
+    "mana": 75,
+    "initialMana": 25,
+    "damage": 45,
+    "armor": 40,
+    "magicResist": 40,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.65,
+    "range": 1
+   },
+   "itemization": "{2ccf900f}",
+   "ability": {
+    "details": [
+     [
+      "150",
+      "200",
+      "250"
+     ],
+     [
+      "100",
+      "150",
+      "225"
+     ],
+     [
+      "75",
+      "100",
+      "125"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Draven": {
+   "name": "Draven",
+   "stats": {
+    "hp": 700,
+    "mana": 120,
+    "initialMana": 30,
+    "damage": 53,
+    "armor": 25,
+    "magicResist": 25,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.75,
+    "range": 4
+   },
+   "itemization": "{2ae695df}",
+   "ability": {
+    "details": [
+     [
+      "370",
+      "370",
+      "390"
+     ],
+     [
+      "30",
+      "45",
+      "80"
+     ],
+     null
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Kindred": {
+   "name": "Kindred",
+   "stats": {
+    "hp": 500,
+    "mana": 50,
+    "initialMana": 0,
+    "damage": 50,
+    "armor": 15,
+    "magicResist": 15,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.7,
+    "range": 4
+   },
+   "itemization": "{2ae695df}",
+   "ability": {
+    "details": [
+     [
+      "20",
+      "30",
+      "45"
+     ],
+     null
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_MissFortune": {
+   "name": "Miss Fortune",
+   "stats": {
+    "hp": 800,
+    "mana": 135,
+    "initialMana": 40,
+    "damage": 56,
+    "armor": 30,
+    "magicResist": 30,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.75,
+    "range": 4
+   },
+   "itemization": "{2ae695df}",
+   "ability": {
+    "details": [
+     [
+      "50",
+      "50",
+      "150"
+     ],
+     [
+      "8",
+      "12",
+      "100"
+     ],
+     [
+      "50",
+      "50",
+      "150"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Urgot": {
+   "name": "Urgot",
+   "stats": {
+    "hp": 850,
+    "mana": 40,
+    "initialMana": 0,
+    "damage": 66,
+    "armor": 40,
+    "magicResist": 40,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.85,
+    "range": 4
+   },
+   "itemization": "{34ed6daa}",
+   "ability": {
+    "details": [
+     [
+      "100",
+      "100",
+      "1000"
+     ],
+     [
+      "8",
+      "12",
+      "100"
+     ],
+     null,
+     [
+      "10",
+      "33",
+      "100"
+     ],
+     [
+      "25",
+      "50",
+      "100"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Jax": {
+   "name": "Jax",
+   "stats": {
+    "hp": 650,
+    "mana": 80,
+    "initialMana": 20,
+    "damage": 55,
+    "armor": 40,
+    "magicResist": 40,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.6,
+    "range": 1
+   },
+   "itemization": "{2ccf900f}",
+   "ability": {
+    "details": [
+     [
+      "350",
+      "425",
+      "525"
+     ],
+     [
+      "110",
+      "165",
+      "250"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Rengar": {
+   "name": "Rengar",
+   "stats": {
+    "hp": 750,
+    "mana": 60,
+    "initialMana": 0,
+    "damage": 65,
+    "armor": 50,
+    "magicResist": 50,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.8,
+    "range": 1
+   },
+   "itemization": "{14a36a9c}",
+   "ability": {
+    "details": [
+     [
+      "140",
+      "145",
+      "150"
+     ],
+     null,
+     null
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Aurora": {
+   "name": "Aurora",
+   "stats": {
+    "hp": 800,
+    "mana": 80,
+    "initialMana": 20,
+    "damage": 50,
+    "armor": 40,
+    "magicResist": 40,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.8,
+    "range": 4
+   },
+   "itemization": "{8377a680}",
+   "ability": {
+    "details": [
+     [
+      "50",
+      "120",
+      "3333"
+     ],
+     [
+      "525",
+      "800",
+      "9999"
+     ],
+     [
+      "50",
+      "100",
+      "1000"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_NidaleeCougar": {
+   "name": "Nidalee",
+   "stats": {
+    "hp": 650,
+    "mana": 60,
+    "initialMana": 20,
+    "damage": 40,
+    "armor": 40,
+    "magicResist": 40,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.75,
+    "range": 1
+   },
+   "itemization": "{44de5928}",
+   "ability": {
+    "details": [
+     [
+      "220",
+      "330",
+      "500"
+     ],
+     [
+      "75",
+      "115",
+      "170"
+     ],
+     null,
+     [
+      "100",
+      "125",
+      "210"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Poppy": {
+   "name": "Poppy",
+   "stats": {
+    "hp": 650,
+    "mana": 65,
+    "initialMana": 20,
+    "damage": 60,
+    "armor": 40,
+    "magicResist": 40,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.55,
+    "range": 1
+   },
+   "itemization": "{2ccf900f}",
+   "ability": {
+    "details": [
+     [
+      "160",
+      "240",
+      "360"
+     ],
+     [
+      "100",
+      "150",
+      "225"
+     ],
+     null,
+     [
+      "425",
+      "500",
+      "600"
+     ],
+     null
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_LeBlanc": {
+   "name": "LeBlanc",
+   "stats": {
+    "hp": 550,
+    "mana": 50,
+    "initialMana": 0,
+    "damage": 35,
+    "armor": 20,
+    "magicResist": 20,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.75,
+    "range": 4
+   },
+   "itemization": "{8377a680}",
+   "ability": {
+    "details": [
+     [
+      "75",
+      "115",
+      "170"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Vi": {
+   "name": "Vi",
+   "stats": {
+    "hp": 650,
+    "mana": 65,
+    "initialMana": 30,
+    "damage": 55,
+    "armor": 40,
+    "magicResist": 40,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.6,
+    "range": 1
+   },
+   "itemization": "{d5823aeb}",
+   "ability": {
+    "details": [
+     [
+      "260",
+      "335",
+      "500"
+     ],
+     [
+      "500",
+      "500",
+      "500"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Darius": {
+   "name": "Darius",
+   "stats": {
+    "hp": 750,
+    "mana": 80,
+    "initialMana": 30,
+    "damage": 65,
+    "armor": 45,
+    "magicResist": 45,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.65,
+    "range": 1
+   },
+   "itemization": "{d5823aeb}",
+   "ability": {
+    "details": [
+     [
+      "200",
+      "220",
+      "240"
+     ],
+     [
+      "200",
+      "200",
+      "200"
+     ],
+     null
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Morgana": {
+   "name": "Morgana",
+   "stats": {
+    "hp": 500,
+    "mana": 40,
+    "initialMana": 0,
+    "damage": 30,
+    "armor": 15,
+    "magicResist": 15,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.7,
+    "range": 4
+   },
+   "itemization": "{32cdc033}",
+   "ability": {
+    "details": [
+     [
+      "400",
+      "600",
+      "1000"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Garen": {
+   "name": "Garen",
+   "stats": {
+    "hp": 1100,
+    "mana": 80,
+    "initialMana": 20,
+    "damage": 80,
+    "armor": 60,
+    "magicResist": 60,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.85,
+    "range": 1
+   },
+   "itemization": "{53d104ac}",
+   "ability": {
+    "details": [
+     [
+      "700",
+      "1000",
+      "21337"
+     ],
+     [
+      "650",
+      "650",
+      "3000"
+     ],
+     [
+      "260",
+      "260",
+      "1500"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Gragas": {
+   "name": "Gragas",
+   "stats": {
+    "hp": 850,
+    "mana": 70,
+    "initialMana": 20,
+    "damage": 50,
+    "armor": 50,
+    "magicResist": 50,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.65,
+    "range": 1
+   },
+   "itemization": "{2ccf900f}",
+   "ability": {
+    "details": [
+     [
+      "300",
+      "325",
+      "380"
+     ],
+     [
+      "150",
+      "225",
+      "335"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Seraphine": {
+   "name": "Seraphine",
+   "stats": {
+    "hp": 500,
+    "mana": 60,
+    "initialMana": 0,
+    "damage": 30,
+    "armor": 15,
+    "magicResist": 15,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.7,
+    "range": 4
+   },
+   "itemization": "{8377a680}",
+   "ability": {
+    "details": [
+     [
+      "250",
+      "375",
+      "600"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Jinx": {
+   "name": "Jinx",
+   "stats": {
+    "hp": 650,
+    "mana": 50,
+    "initialMana": 0,
+    "damage": 55,
+    "armor": 25,
+    "magicResist": 25,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.7,
+    "range": 4
+   },
+   "itemization": "{2ae695df}",
+   "ability": {
+    "details": [
+     [
+      "140",
+      "140",
+      "150"
+     ],
+     [
+      "15",
+      "25",
+      "40"
+     ],
+     null
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Alistar": {
+   "name": "Alistar",
+   "stats": {
+    "hp": 650,
+    "mana": 80,
+    "initialMana": 40,
+    "damage": 50,
+    "armor": 40,
+    "magicResist": 40,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.55,
+    "range": 1
+   },
+   "itemization": "{2ccf900f}",
+   "ability": {
+    "details": [
+     [
+      "15",
+      "20",
+      "33"
+     ],
+     [
+      "240",
+      "360",
+      "600"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Renekton": {
+   "name": "Renekton",
+   "stats": {
+    "hp": 1100,
+    "mana": 140,
+    "initialMana": 70,
+    "damage": 66,
+    "armor": 60,
+    "magicResist": 60,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.91,
+    "range": 1
+   },
+   "itemization": "{53d104ac}",
+   "ability": {
+    "details": [
+     [
+      "100",
+      "100",
+      "3000"
+     ],
+     [
+      "260",
+      "400",
+      "1000"
+     ],
+     null,
+     [
+      "400",
+      "650",
+      "10000"
+     ],
+     null,
+     null
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Veigar": {
+   "name": "Veigar",
+   "stats": {
+    "hp": 550,
+    "mana": 40,
+    "initialMana": 0,
+    "damage": 35,
+    "armor": 20,
+    "magicResist": 20,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.7,
+    "range": 4
+   },
+   "itemization": "{32cdc033}",
+   "ability": {
+    "details": [
+     [
+      "320",
+      "450",
+      "600"
+     ],
+     [
+      "125",
+      "170",
+      "240"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_KogMaw": {
+   "name": "Kog'Maw",
+   "stats": {
+    "hp": 500,
+    "mana": 40,
+    "initialMana": 0,
+    "damage": 53,
+    "armor": 15,
+    "magicResist": 15,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.7,
+    "range": 4
+   },
+   "itemization": "{34ed6daa}",
+   "ability": {
+    "details": [
+     [
+      "9",
+      "14",
+      "20"
+     ],
+     null
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Aphelios": {
+   "name": "Aphelios",
+   "stats": {
+    "hp": 800,
+    "mana": 50,
+    "initialMana": 0,
+    "damage": 63,
+    "armor": 30,
+    "magicResist": 30,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.75,
+    "range": 4
+   },
+   "itemization": "{34ed6daa}",
+   "ability": {
+    "details": [
+     [
+      "220",
+      "220",
+      "600"
+     ],
+     [
+      "20",
+      "30",
+      "100"
+     ],
+     null,
+     [
+      "11",
+      "11",
+      "100"
+     ]
+    ]
+   },
+   "tags": []
+  },
+  "TFT14_Rhaast": {
+   "name": "Rhaast",
+   "stats": {
+    "hp": 700,
+    "mana": 80,
+    "initialMana": 40,
+    "damage": 60,
+    "armor": 40,
+    "magicResist": 40,
+    "critMultiplier": 1.4,
+    "critChance": 0.25,
+    "attackSpeed": 0.75,
+    "range": 1
+   },
+   "itemization": "{d5823aeb}",
+   "ability": {
+    "details": [
+     [
+      "220",
+      "250",
+      "300"
+     ],
+     null
+    ]
+   },
+   "tags": []
+  }
+ },
+ "traits": {
+  "TFT14_Overlord": {
+   "name": "Overlord"
+  },
+  "TFT14_StreetDemon": {
+   "name": "Street Demon"
+  },
+  "TFT14_ViegoUniqueTrait": {
+   "name": "Soul Killer"
+  },
+  "TFT14_Mob": {
+   "name": "Syndicate"
+  },
+  "TFT14_Techie": {
+   "name": "Techie"
+  },
+  "TFT14_AnimaSquad": {
+   "name": "Anima Squad"
+  },
+  "TFT14_BallisTek": {
+   "name": "BoomBot"
+  },
+  "TFT14_Virus": {
+   "name": "Virus"
+  },
+  "TFT14_Controller": {
+   "name": "Strategist"
+  },
+  "TFT14_Cutter": {
+   "name": "Executioner"
+  },
+  "TFT14_Marksman": {
+   "name": "Marksman"
+  },
+  "TFT14_Armorclad": {
+   "name": "Bastion"
+  },
+  "TFT14_EdgeRunner": {
+   "name": "Exotech"
+  },
+  "TFT14_Supercharge": {
+   "name": "A.M.P."
+  },
+  "TFT14_HotRod": {
+   "name": "Nitro"
+  },
+  "TFT14_Cyberboss": {
+   "name": "Cyberboss"
+  },
+  "TFT14_Vanguard": {
+   "name": "Vanguard"
+  },
+  "TFT14_Divinicorp": {
+   "name": "Divinicorp"
+  },
+  "TFT14_Thirsty": {
+   "name": "Dynamo"
+  },
+  "TFT14_Swift": {
+   "name": "Rapidfire"
+  },
+  "TFT14_Suits": {
+   "name": "Cypher"
+  },
+  "TFT14_Strong": {
+   "name": "Slayer"
+  },
+  "TFT14_Immortal": {
+   "name": "Golden Ox"
+  },
+  "TFT14_Netgod": {
+   "name": "God of the Net"
+  },
+  "TFT14_Bruiser": {
+   "name": "Bruiser"
+  }
+ },
+ "items": {
+  "RabadonsDeathcap": {
+   "id": 25,
+   "name": "Rabadon's Deathcap",
+   "effects": {
+    "AP": 50,
+    "BonusDamage": 0.15,
+    "{1543aa48}": 0.15
+   },
+   "from": [
+    3,
+    3
+   ],
+   "tags": [
+    "Craftable"
+   ]
+  },
+  "InfinityEdge": {
+   "id": 17,
+   "name": "Infinity Edge",
+   "effects": {
+    "AD": 0.35,
+    "CritChance": 35,
+    "CritDamageToGive": 0.1
+   },
+   "from": [
+    1,
+    8
+   ],
+   "tags": [
+    "Craftable"
+   ]
+  },
+  "5DragonsClawRadiant": {
+   "id": 79,
+   "name": "Radiant Dragon's Claw",
+   "effects": {
+    "MagicResist": 115,
+    "MaxHealthRegen": 2,
+    "HealthRegenInterval": 2,
+    "ICD": 0.5,
+    "PercentHealthDamage": 10,
+    "PercentMaxHP": 0.15
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  },
+  "5TrapClawRadiant": {
+   "id": 83,
+   "name": "Radiant Striker's Flail",
+   "effects": {
+    "Health": 150,
+    "AS": 35,
+    "CritChance": 35,
+    "Duration": 8,
+    "{1543aa48}": 0.2,
+    "BuffDamageAmp": 0.08,
+    "MaxStacks": 4
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  },
+  "5IonicSparkRadiant": {
+   "id": 67,
+   "name": "Radiant Ionic Spark",
+   "effects": {
+    "Health": 200,
+    "AP": 15,
+    "HexRange": 3,
+    "ManaRatio": 200,
+    "MRShred": 30,
+    "MaxHealthRegen": 1.5,
+    "HealthRegenInterval": 1,
+    "MagicResist": 40
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  },
+  "5QuicksilverRadiant": {
+   "id": 81,
+   "name": "Radiant Quicksilver",
+   "effects": {
+    "MagicResist": 30,
+    "SpellShieldDuration": 45,
+    "AS": 50,
+    "CritChance": 40,
+    "ProcAttackSpeed": 0.07,
+    "ASTotalDuration": 18,
+    "ProcInterval": 2
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  },
+  "5HextechGunbladeRadiant": {
+   "id": 51,
+   "name": "Radiant Hextech Gunblade",
+   "effects": {
+    "StatOmnivamp": 0.3,
+    "AD": 0.4,
+    "AP": 40,
+    "AllyHealing": 0.4,
+    "Omnivamp": 35
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  },
+  "5StatikkShivRadiant": {
+   "id": 59,
+   "name": "Radiant Void Staff",
+   "effects": {
+    "Mana": 30,
+    "MRShred": 30,
+    "MRShredDuration": 90,
+    "AP": 60,
+    "AS": 60
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  },
+  "5FrozenHeartRadiant": {
+   "id": 71,
+   "name": "Radiant Protector's Vow",
+   "effects": {
+    "Mana": 30,
+    "HealthThreshold": 40,
+    "ShieldHealthPercent": 50,
+    "ShieldDuration": 10,
+    "Stats": 60,
+    "Armor": 40
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  },
+  "5BlueBuffRadiant": {
+   "id": 70,
+   "name": "Radiant Blue Buff",
+   "effects": {
+    "Mana": 30,
+    "DamageAmp": 0.2,
+    "AP": 60,
+    "ManaRefund": 10,
+    "TakedownTimer": 12,
+    "AD": 0.6
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  },
+  "5ArchangelsStaffRadiant": {
+   "id": 65,
+   "name": "Radiant Archangel's Staff",
+   "effects": {
+    "Mana": 15,
+    "IntervalSeconds": 4,
+    "APPerInterval": 40,
+    "AP": 60
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  },
+  "5MorellonomiconRadiant": {
+   "id": 68,
+   "name": "Radiant Morellonomicon",
+   "effects": {
+    "Health": 150,
+    "AP": 50,
+    "BurnPercent": 2,
+    "TicksPerSecond": 1,
+    "MonsterCap": 150,
+    "BurnDuration": 8,
+    "GrievousWoundsPercent": 33,
+    "AS": 25
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  },
+  "5BrambleVestRadiant": {
+   "id": 75,
+   "name": "Radiant Bramble Vest",
+   "effects": {
+    "Armor": 100,
+    "1StarAoEDamage": 175,
+    "2StarAoEDamage": 175,
+    "3StarAoEDamage": 175,
+    "4StarAoEDamage": 175,
+    "ICD": 2,
+    "AutoDamageReduction": 0.25,
+    "PercentMaxHP": 0.15
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  },
+  "5ZzRotPortalRadiant": {
+   "id": 127,
+   "name": "Zz'Rot Portal",
+   "effects": {
+    "Health": 150,
+    "SummonedStatReduction": 25,
+    "{50a0dbb5}": 1,
+    "{ef0bb7c2}": 1
+   },
+   "from": [],
+   "tags": [
+    "Support"
+   ]
+  },
+  "5RunaansHurricaneRadiant": {
+   "id": 61,
+   "name": "Torrential Maelstrom",
+   "effects": {
+    "ADOnAttack": 0.06,
+    "AD": 0.3,
+    "MagicResist": 20,
+    "AS": 25
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  },
+  "5GuinsoosRagebladeRadiant": {
+   "id": 58,
+   "name": "Radiant Guinsoo's Rageblade",
+   "effects": {
+    "AttackSpeedPerStack": 14,
+    "AP": 30,
+    "AS": 30
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  },
+  "5HandOfJusticeRadiant": {
+   "id": 74,
+   "name": "Radiant Hand of Justice",
+   "effects": {
+    "AD_NotStatBar": 0.35,
+    "AP_NotStatBar": 35,
+    "StatOmnivamp_NotStatBar": 0.2,
+    "CritChance": 40,
+    "Mana": 15,
+    "{f23e83fc}": 2,
+    "HealthThreshold": 0.5
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  },
+  "5SunfireCapeRadiant": {
+   "id": 77,
+   "name": "Radiant Sunfire Cape",
+   "effects": {
+    "Health": 300,
+    "Armor": 40,
+    "BurnPercent": 2,
+    "BurnDuration": 8,
+    "MonsterCap": 150,
+    "GrievousWoundsPercent": 33,
+    "ICD": 1.5,
+    "HexRange": 3,
+    "BonusPercentHP": 0.12
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  },
+  "5LastWhisperRadiant": {
+   "id": 63,
+   "name": "Radiant Last Whisper",
+   "effects": {
+    "ArmorReductionPercent": 30,
+    "ArmorBreakDuration": 50,
+    "AD": 0.45,
+    "AS": 25,
+    "CritChance": 55
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  },
+  "5ThiefsGlovesRadiant": {
+   "id": 84,
+   "name": "Radiant Thief's Gloves",
+   "effects": {
+    "Health": 150,
+    "CritChance": 20
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  },
+  "5WarmogsArmorRadiant": {
+   "id": 82,
+   "name": "Radiant Warmog's Armor",
+   "effects": {
+    "Health": 1000,
+    "MaxHealthRegen": 1.5,
+    "HealthRegenInterval": 1,
+    "BonusPercentHP": 0.2
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  },
+  "5SteraksGageRadiant": {
+   "id": 55,
+   "name": "Radiant Sterak's Gage",
+   "effects": {
+    "Health": 600,
+    "AD": 0.8,
+    "HealthThreshold": 60,
+    "PercentHealthShield": 1,
+    "ShieldDuration": 6
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  },
+  "5RedemptionRadiant": {
+   "id": 73,
+   "name": "Radiant Spirit Visage",
+   "effects": {
+    "Health": 600,
+    "Mana": 15,
+    "{cd951938}": 0.18,
+    "MissingHealthHeal": 0.05,
+    "HealTickRate": 1,
+    "MaxHeal": 2000
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  },
+  "5GuardianAngelRadiant": {
+   "id": 53,
+   "name": "Radiant Edge of Night",
+   "effects": {
+    "AD": 0.3,
+    "Armor": 30,
+    "StealthDuration": 1,
+    "DamageReduction": 100,
+    "HealthThreshold": 60,
+    "AttackSpeed": 85,
+    "HealthThreshold2": 30,
+    "MissingHealthRestore": 1
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  },
+  "5RapidFirecannonRadiant": {
+   "id": 57,
+   "name": "Radiant Red Buff",
+   "effects": {
+    "AS": 60,
+    "HexRangeIncrease": 2,
+    "BonusDamage": 0.1,
+    "BurnPercent": 2,
+    "HealingReductionPct": 33,
+    "Duration": 5,
+    "{1543aa48}": 0.1
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  },
+  "5NightHarvesterRadiant": {
+   "id": 78,
+   "name": "Radiant Steadfast Heart",
+   "effects": {
+    "Health": 500,
+    "Armor": 40,
+    "CritChance": 20,
+    "BaseDamageReduction": 16,
+    "ThresholdForEmpower": 0.4,
+    "EmpowerDamageReduction": 30,
+    "BaseDurability": 0.16,
+    "EmpoweredDurability": 0.3
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  },
+  "5TitansResolveRadiant": {
+   "id": 60,
+   "name": "Radiant Titan's Resolve",
+   "effects": {
+    "Armor": 35,
+    "StackCap": 25,
+    "BonusResistsAtStackCap": 50,
+    "StackingAD": 0.03,
+    "StackingSP": 3,
+    "AS": 30
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  },
+  "5GiantSlayerRadiant": {
+   "id": 50,
+   "name": "Radiant Giant Slayer",
+   "effects": {
+    "AD": 0.5,
+    "LargeBonusPct": 60,
+    "AP": 50
+   },
+   "from": [],
+   "tags": [
+    "Radiant"
+   ]
+  }
+ }
+}
