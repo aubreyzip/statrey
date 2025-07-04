@@ -1,53 +1,55 @@
 import { describe, it, expect } from "vitest";
 import { championSchema } from "@/entities/models/tft/champion";
 
-describe("championSchema", () => {
-  const baseValidChampion = {
-    name: "Yasuo",
+describe("championSchema - TFT14_Jinx example", () => {
+  const validJinx = {
+    name: "Jinx",
     stats: {
-      hp: 600,
-      mana: 300,
-      initialMana: 50,
-      damage: 70,
-      armor: 30,
-      magicResist: 32,
-      critMultiplier: 2,
+      hp: 650,
+      mana: 50,
+      initialMana: 0,
+      damage: 55,
+      armor: 25,
+      magicResist: 25,
+      critMultiplier: 1.4,
       critChance: 0.25,
       attackSpeed: 0.7,
-      range: 550,
+      range: 4,
     },
+    itemizationId: "{2ae695df}",
     ability: {
-      details: [["damage", 100]],
+      details: [
+        ["140", "140", "150"],
+        ["15", "25", "40"],
+        null,
+      ],
     },
-    tags: ["Fighter", "Assassin"],
+    tags: [],
   };
 
-  it("should parse a valid champion with itemization", () => {
-    const champWithItemization = {
-      ...baseValidChampion,
-      itemization: {
-        starter: ["Doran's Blade"],
-        core: ["Infinity Edge"],
-      },
+  it("should parse valid Jinx data", () => {
+    expect(() => championSchema.parse(validJinx)).not.toThrow();
+  });
+
+  it("should throw if stats are missing", () => {
+    const invalid = { ...validJinx } as any;
+    delete invalid.stats;
+    expect(() => championSchema.parse(invalid)).toThrow();
+  });
+
+  it("should throw if ability.details is not properly structured", () => {
+    const invalid = {
+      ...validJinx,
+      ability: { details: ["not", "nested", "arrays"] },
     };
-    expect(() => championSchema.parse(champWithItemization)).not.toThrow();
+    expect(() => championSchema.parse(invalid)).toThrow();
   });
 
-  it("should parse a valid champion without itemization", () => {
-    expect(() => championSchema.parse(baseValidChampion)).not.toThrow();
-  });
-
-  it("should throw if name is missing", () => {
-    const invalidChampion = { ...baseValidChampion } as Partial<typeof baseValidChampion>;
-    delete invalidChampion.name;
-    expect(() => championSchema.parse(invalidChampion)).toThrow();
-  });
-
-  it("should throw if tags is not array of strings", () => {
-    const invalidChampion = {
-      ...baseValidChampion,
-      tags: [123],
+  it("should throw if itemizationId is a number instead of string", () => {
+    const invalid = {
+      ...validJinx,
+      itemizationId: 12345,
     };
-    expect(() => championSchema.parse(invalidChampion)).toThrow();
+    expect(() => championSchema.parse(invalid)).toThrow();
   });
 });

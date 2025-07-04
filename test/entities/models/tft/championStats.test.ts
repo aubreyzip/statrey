@@ -22,14 +22,14 @@ describe("championStatsSchema", () => {
     const invalidStats = {
       hp: 600,
       mana: 300,
-      // missing damage
+      
     };
     expect(() => championStatsSchema.parse(invalidStats)).toThrow();
   });
 
   it("should throw on wrong type", () => {
     const invalidStats = {
-      hp: "600",    //string instead of number
+      hp: "600",
       mana: 300,
       initialMana: 50,
       damage: 70,
