@@ -1,5 +1,5 @@
 import { expect, it } from "vitest";
-import { itemizationSchema } from "@/entities/models/tft/champion";
+import { itemizationSchema } from "@/entities/models/tft/unit";
 
 it("parses valid itemization map", () => {
   const example = {

@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
-import { championSchema } from "@/entities/models/tft/champion";
+import { unitSchema } from "@/entities/models/tft/unit";
 
-describe("championSchema - TFT14_Jinx example", () => {
+describe("unitSchema - TFT14_Jinx example", () => {
   const validJinx = {
     name: "Jinx",
     stats: {
@@ -28,13 +28,13 @@ describe("championSchema - TFT14_Jinx example", () => {
   };
 
   it("should parse valid Jinx data", () => {
-    expect(() => championSchema.parse(validJinx)).not.toThrow();
+    expect(() => unitSchema.parse(validJinx)).not.toThrow();
   });
 
   it("should throw if stats are missing", () => {
     const invalid = { ...validJinx } as any;
     delete invalid.stats;
-    expect(() => championSchema.parse(invalid)).toThrow();
+    expect(() => unitSchema.parse(invalid)).toThrow();
   });
 
   it("should throw if ability.details is not properly structured", () => {
@@ -42,7 +42,7 @@ describe("championSchema - TFT14_Jinx example", () => {
       ...validJinx,
       ability: { details: ["not", "nested", "arrays"] },
     };
-    expect(() => championSchema.parse(invalid)).toThrow();
+    expect(() => unitSchema.parse(invalid)).toThrow();
   });
 
   it("should throw if itemizationId is a number instead of string", () => {
@@ -50,6 +50,6 @@ describe("championSchema - TFT14_Jinx example", () => {
       ...validJinx,
       itemizationId: 12345,
     };
-    expect(() => championSchema.parse(invalid)).toThrow();
+    expect(() => unitSchema.parse(invalid)).toThrow();
   });
 });

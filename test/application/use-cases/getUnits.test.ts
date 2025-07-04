@@ -1,9 +1,9 @@
 import { describe, it, expect, vi } from "vitest";
-import { getChampions } from "@/application/use-cases/tft/getChampions";
-import type { Champion } from "@/entities/models/tft/types";
+import { getUnits } from "@/application/use-cases/tft/getUnits";
+import type { Unit } from "@/entities/models/tft/types";
 
-vi.mock("@/infrastructure/repositories/tft/champion.repository", () => {
-  const mockChampions: Champion[] = [
+vi.mock("@/infrastructure/repositories/tft/Unit.repository", () => {
+  const mockUnits: Unit[] = [
     {
       name: "Samira",
       stats: {
@@ -57,17 +57,17 @@ vi.mock("@/infrastructure/repositories/tft/champion.repository", () => {
   ];
 
   return {
-    ChampionRepository: vi.fn().mockImplementation(() => ({
-      getAllSortedByName: vi.fn().mockResolvedValue(mockChampions),
+    UnitRepository: vi.fn().mockImplementation(() => ({
+      getAllSortedByName: vi.fn().mockResolvedValue(mockUnits),
     })),
   };
 });
 
 describe("getChampions use case", () => {
   it("should return sorted champions", async () => {
-    const champions = await getChampions();
-    expect(champions).toHaveLength(2);
-    expect(champions[0].name).toBe("Samira");
-    expect(champions[1].name).toBe("Xayah");
+    const units = await getUnits();
+    expect(units).toHaveLength(2);
+    expect(units[0].name).toBe("Samira");
+    expect(units[1].name).toBe("Xayah");
   });
 });

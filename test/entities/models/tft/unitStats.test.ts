@@ -1,8 +1,8 @@
 import { describe, it, expect } from "vitest";
-import { championStatsSchema } from "@/entities/models/tft/champion";
+import { unitStatsSchema } from "@/entities/models/tft/unit";
 
-describe("championStatsSchema", () => {
-  it("should parse valid champion stats", () => {
+describe("unitStatsSchema", () => {
+  it("should parse valid unit stats", () => {
     const validStats = {
       hp: 600,
       mana: 300,
@@ -15,7 +15,7 @@ describe("championStatsSchema", () => {
       attackSpeed: 0.7,
       range: 550,
     };
-    expect(() => championStatsSchema.parse(validStats)).not.toThrow();
+    expect(() => unitStatsSchema.parse(validStats)).not.toThrow();
   });
 
   it("should throw on missing fields", () => {
@@ -24,7 +24,7 @@ describe("championStatsSchema", () => {
       mana: 300,
       
     };
-    expect(() => championStatsSchema.parse(invalidStats)).toThrow();
+    expect(() => unitStatsSchema.parse(invalidStats)).toThrow();
   });
 
   it("should throw on wrong type", () => {
@@ -40,6 +40,6 @@ describe("championStatsSchema", () => {
       attackSpeed: 0.7,
       range: 550,
     };
-    expect(() => championStatsSchema.parse(invalidStats)).toThrow();
+    expect(() => unitStatsSchema.parse(invalidStats)).toThrow();
   });
 });

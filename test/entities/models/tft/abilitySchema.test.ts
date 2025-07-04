@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { abilitySchema } from "@/entities/models/tft/champion";
+import { abilitySchema } from "@/entities/models/tft/unit";
 
 describe("abilitySchema", () => {
   it("should parse valid ability details", () => {

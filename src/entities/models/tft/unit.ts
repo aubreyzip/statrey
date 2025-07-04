@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-export const championStatsSchema = z.object({
+export const unitStatsSchema = z.object({
   hp: z.number(),
   mana: z.number(),
   initialMana: z.number(),
@@ -19,12 +19,12 @@ export const abilitySchema = z.object({
 
 export const itemizationSchema = z.record(z.string(), z.array(z.string()));
 
-export const championSchema = z.object({
+export const unitSchema = z.object({
   name: z.string(),
-  stats: championStatsSchema,
+  stats: unitStatsSchema,
   itemizationId: z.string().optional(),
   ability: abilitySchema,
   tags: z.array(z.string()),
 });
 
-export const championsSchema = z.record(z.string(), championSchema);
+export const unitsSchema = z.record(z.string(), unitSchema);

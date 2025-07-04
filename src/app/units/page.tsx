@@ -1,19 +1,19 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { getChampions } from "@/application/use-cases/tft/getChampions";
-import type { Champion } from "@/entities/models/tft/types";
+import { getUnits } from "@/application/use-cases/tft/getUnits";
+import type { Unit } from "@/entities/models/tft/types";
 
-export default function ChampionsPage() {
-  const [champs, setChamps] = useState<Champion[] | null>(null);
+export default function UnitsPage() {
+  const [champs, setChamps] = useState<Unit[] | null>(null);
 
   useEffect(() => {
-    getChampions().then(setChamps);
+    getUnits().then(setChamps);
   }, []);
 
   return (
     <div className="p-6">
-      <h1 className="text-3xl font-bold mb-6">TFT Champions</h1>
+      <h1 className="text-3xl font-bold mb-6">TFT Units</h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {champs?.map((champ) => (

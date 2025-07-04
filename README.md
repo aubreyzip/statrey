@@ -6,8 +6,8 @@ Statrey is a **Next.js** application designed to provide comprehensive informati
 
 ## Features
 
-- **TFT Set 14 Information**: Access up-to-date data for TFT Set 14, including champions, items, traits, and more, sourced from external APIs.
-- **Team Planner**: A dedicated tool to help users strategize and build optimal team compositions, allowing for experimentation with various champion and item combinations.
+- **TFT Set 14 Information**: Access up-to-date data for TFT Set 14, including units, items, traits, and more, sourced from external APIs.
+- **Team Planner**: A dedicated tool to help users strategize and build optimal team compositions, allowing for experimentation with various unit and item combinations.
 - **Past Match Results Summary**: View a concise summary of your previous TFT matches, pulling data directly from the Riot Games API to help analyze performance and identify trends.
 - **Clean Architecture**: Designed with maintainability, scalability, and testability in mind, ensuring a robust and organized codebase.
 
