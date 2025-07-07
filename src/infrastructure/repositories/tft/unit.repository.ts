@@ -1,25 +1,16 @@
-import { unitsSchema } from "@/entities/models/tft/unit";
 import type { Unit } from "@/entities/models/tft/types";
 import type { IUnitRepository } from "@/application/repositories/unit.repository.interface";
+import { fetchUnits } from "@/infrastructure/services/unit.service";
 
 export class UnitRepository implements IUnitRepository {
-  
-  private async fetchUnitsFromJson(): Promise<Record<string, Unit>> {
-    const raw = await import("@/infrastructure/static/data.json");
-    const units = raw.default?.units ?? raw.units;
-
-    if (!units) throw new Error("No units found in static data");
-
-    return unitsSchema.parse(units);
-  }
 
   public async getAll(): Promise<Unit[]> {
-    const unitsMap = await this.fetchUnitsFromJson();
+    const unitsMap = await fetchUnits();
     return Object.values(unitsMap);
   }
 
   public async getByName(name: string): Promise<Unit | null> {
-    const unitsMap = await this.fetchUnitsFromJson();
+    const unitsMap = await fetchUnits();
     const unit = Object.values(unitsMap).find((unit) => unit.name.toLowerCase() === name.toLowerCase());
     return unit ?? null;
   }
