@@ -1,6 +1,6 @@
 import { unitsSchema } from "@/entities/models/tft/unit";
 import type { Unit } from "@/entities/models/tft/types";
-import type { IUnitRepository } from "@/application/repositories/unit.interface";
+import type { IUnitRepository } from "@/application/repositories/unit.repository.interface";
 
 export class UnitRepository implements IUnitRepository {
   

@@ -1,6 +1,6 @@
 import { itemsSchema } from "@/entities/models/tft/item";
 import type { Item } from "@/entities/models/tft/types";
-import type { IItemRepository } from "@/application/repositories/item.interface";
+import type { IItemRepository } from "@/application/repositories/item.repository.interface";
 
 export class ItemRepository implements IItemRepository {
   private async fetchItemsFromJson(): Promise<Record<string, Item>> {
