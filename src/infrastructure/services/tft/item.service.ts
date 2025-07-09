@@ -1,6 +1,6 @@
 import { itemsSchema } from "@/entities/models/tft/item";
 import type { Item } from "@/entities/models/tft/types";
-import { fetchData } from "./fetch";
+import { fetchData } from "./utils";
 import { keys } from "@/entities/models/tft/keys";
 
 export async function fetchItems(): Promise<Record<string, Item>> {
