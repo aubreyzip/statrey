@@ -1,6 +1,6 @@
 import type { Item } from "@/entities/models/tft/types";
 import type { IItemRepository } from "@/application/repositories/item.repository.interface";
-import { fetchItems } from "@/infrastructure/services/item.service";
+import { fetchItems } from "@/infrastructure/services/tft/item.service";
 
 export class ItemRepository implements IItemRepository {
 

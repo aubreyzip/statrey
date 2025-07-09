@@ -1,6 +1,6 @@
 import { IItemizationRepository } from "@/application/repositories/itemization.repository.interface";
 import { Itemization } from "@/entities/models/tft/types";
-import { fetchItemizations } from "@/infrastructure/services/itemization.service";
+import { fetchItemizations } from "@/infrastructure/services/tft/itemization.service";
 
 export class ItemizationRepository implements IItemizationRepository {
 

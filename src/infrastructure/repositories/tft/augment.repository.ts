@@ -1,4 +1,4 @@
-import { fetchAugments } from "@/infrastructure/services/augment.service";
+import { fetchAugments } from "@/infrastructure/services/tft/augment.service";
 import type { Augment } from "@/entities/models/tft/types";
 import { IAugmentRepository } from "@/application/repositories/augment.repository.interface";
 
