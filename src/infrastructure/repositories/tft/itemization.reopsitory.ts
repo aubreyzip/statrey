@@ -1,4 +1,4 @@
-import { IItemizationRepository } from "@/application/repositories/itemization.repository.interface";
+import { IItemizationRepository } from "@/application/repositories/tft/itemization.repository.interface";
 import { Itemization } from "@/entities/models/tft/types";
 import { fetchItemizations } from "@/infrastructure/services/tft/itemization.service";
 

@@ -1,5 +1,5 @@
 import type { Unit } from "@/entities/models/tft/types";
-import type { IUnitRepository } from "@/application/repositories/unit.repository.interface";
+import type { IUnitRepository } from "@/application/repositories/tft/unit.repository.interface";
 import { fetchUnits } from "@/infrastructure/services/tft/unit.service";
 
 export class UnitRepository implements IUnitRepository {

@@ -1,6 +1,6 @@
 import { fetchAugments } from "@/infrastructure/services/tft/augment.service";
 import type { Augment } from "@/entities/models/tft/types";
-import { IAugmentRepository } from "@/application/repositories/augment.repository.interface";
+import { IAugmentRepository } from "@/application/repositories/tft/augment.repository.interface";
 
 
 export class AugmentRepository implements IAugmentRepository {

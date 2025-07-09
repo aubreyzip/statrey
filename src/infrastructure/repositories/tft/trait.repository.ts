@@ -1,4 +1,4 @@
-import { ITraitRepository } from "@/application/repositories/trait.repository.interface";
+import { ITraitRepository } from "@/application/repositories/tft/trait.repository.interface";
 import type { Trait } from "@/entities/models/tft/types";
 import { fetchTraits } from "@/infrastructure/services/tft/trait.service";
 
