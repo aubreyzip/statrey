@@ -1,6 +1,6 @@
 import { Account } from "@/entities/models/riot/types";
 import { fetchAccountData, fetchPuuid } from "@/infrastructure/services/riot/account.service";
-import { IAccountRepository } from "@/application/repositories/account.repository.interface";
+import { IAccountRepository } from "@/application/repositories/riot/account.repository.interface";
 
 export class AccountRepository implements IAccountRepository {
 
