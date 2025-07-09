@@ -40,3 +40,6 @@ src/envs/apikey.env
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# mock data
+/src/infrastructure/static/matchhistory.json
