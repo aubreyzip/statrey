@@ -1,17 +1,19 @@
 import type { Item } from "@/entities/models/tft/types";
 import type { IItemRepository } from "@/application/repositories/tft/item.repository.interface";
-import { fetchItems } from "@/infrastructure/services/tft/item.service";
+import ItemService from "@/infrastructure/services/tft/item.service";
+
+const itemService = new ItemService();
 
 export class ItemRepository implements IItemRepository {
 
   public async getAll(): Promise<Item[]> {
-    const itemsMap = await fetchItems();
+    const itemsMap = await itemService.fetchItems();
     return Object.values(itemsMap);
   }
 
   public async getByName(name: string): Promise<Item | null> {
-    const itemsMap = await fetchItems();
-    const item = Object.values(itemsMap).find(
+    const itemsMap = await itemService.fetchItems();
+    const item = (Object.values(itemsMap) as Item[]).find(
       (item) => item.name.toLowerCase() === name.toLowerCase()
     );
     return item ?? null;
