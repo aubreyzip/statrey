@@ -26,9 +26,11 @@ export class MatchRepository implements IMatchRepository {
     if (pastMatches.length === 0) {
       return 0;
     }
+
     const chunkSize = 10;
     const delayBetweenChunks = 1000; //1sec
     const matchChunks: string[][] = [];
+    
     for (let i = 0; i < pastMatches.length; i += chunkSize) {
       matchChunks.push(pastMatches.slice(i, i + chunkSize));
     }
@@ -42,8 +44,10 @@ export class MatchRepository implements IMatchRepository {
           )?.placement || 0;
         })
       );
+
       console.log(`Processed chunk of ${chunk.length}`);
       console.log(`Placements in this chunk: ${results.join(", ")}`);
+      
       placements.push(...results);
       if (chunk !== matchChunks[matchChunks.length - 1]) {
         await delay(delayBetweenChunks);
