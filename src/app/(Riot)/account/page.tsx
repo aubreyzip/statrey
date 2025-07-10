@@ -2,12 +2,13 @@
 
 import { useState } from "react";
 import { getAccount } from "@/application/use-cases/riot/getAccount";
+import { getAvaragePlacement } from "@/application/use-cases/riot/getAvaragePlacement";
 import { Account } from "@/entities/models/riot/types";
 
 export default function AccountPage() {
-  const [gameName, setGameName] = useState("");
-  const [tagLine, setTagLine] = useState("");
+  const [inputValue, setInputValue] = useState("");
   const [accountData, setAccountData] = useState<Account | null>(null);
+  const [averagePlacement, setAveragePlacement] = useState<number | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -16,12 +17,24 @@ export default function AccountPage() {
     setLoading(true);
     setError(null);
     setAccountData(null);
+    setAveragePlacement(null);
+
+    const [gameName, tagLine] = inputValue.split("#");
+
+    if (!gameName || !tagLine) {
+      setError("Please enter in the format: GameName#TagLine (e.g., Just1Night#TR1)");
+      setLoading(false);
+      return;
+    }
 
     try {
-      const data = await getAccount(gameName, tagLine);
-      setAccountData(data);
+      const account = await getAccount(gameName, tagLine);
+      setAccountData(account);
+
+      const placement = await getAvaragePlacement(account.puuid);
+      setAveragePlacement(placement);
     } catch (err: any) {
-      setError("Failed to fetch account data. Check name/tag or try again.");
+      setError("Failed to fetch account or placement data.");
     } finally {
       setLoading(false);
     }
@@ -34,17 +47,9 @@ export default function AccountPage() {
       <form onSubmit={handleSubmit} className="space-y-3 w-full max-w-sm">
         <input
           type="text"
-          placeholder="Game Name"
-          value={gameName}
-          onChange={(e) => setGameName(e.target.value)}
-          required
-          className="w-full p-2 border border-gray-300 rounded"
-        />
-        <input
-          type="text"
-          placeholder="Tag Line"
-          value={tagLine}
-          onChange={(e) => setTagLine(e.target.value)}
+          placeholder="GameName#TagLine"
+          value={inputValue}
+          onChange={(e) => setInputValue(e.target.value)}
           required
           className="w-full p-2 border border-gray-300 rounded"
         />
@@ -65,6 +70,35 @@ export default function AccountPage() {
           <pre className="bg-gray-100 p-2 rounded overflow-x-auto text-sm">
             {JSON.stringify(accountData, null, 2)}
           </pre>
+          {averagePlacement === null ? (
+            <div className="mt-4 flex items-center space-x-2 text-blue-800 font-medium">
+              <svg
+                className="animate-spin h-5 w-5 text-blue-600"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  className="opacity-25"
+                  cx="12"
+                  cy="12"
+                  r="10"
+                  stroke="currentColor"
+                  strokeWidth="4"
+                ></circle>
+                <path
+                  className="opacity-75"
+                  fill="currentColor"
+                  d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
+                ></path>
+              </svg>
+              <span>Calculating Average Placement...</span>
+            </div>
+          ) : (
+            <div className="mt-4 text-blue-800 font-medium">
+              🧮 Average Placement: <strong>{averagePlacement.toFixed(2)}</strong>
+            </div>
+          )}
         </div>
       )}
     </div>
